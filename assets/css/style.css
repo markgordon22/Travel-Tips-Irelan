@@ -7,13 +7,42 @@
    border: 0;
    }
 
+.navbar {
+color: white;
+font-size: 20px;
+}
 
+.navbar-brand {
+font-size: 20px;
+letter-spacing: 1px;
+color: #000000;
+
+}
+
+.nav-link{
+color: #000000;
+font-size: 20px;
+
+}
 
 .hero-image {
-  background-image: url("/workspace/Travel-Tips-Ireland/img/hero-image.jpg");
-  height: 500px;
+  background-image: url("https://media.cntraveler.com/photos/56e79f7c83180b3e107eb020/master/w_2048,h_1536,c_limit/cliffs-of-moher-ireland-cr-getty.jpg");
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  width: 100%;
 }
+
+.btn-1 {
+margin-top: 300px;
+margin-left: 50%;
+padding: 20px;
+border-radius: 5px;
+text-align: center;
+opacity: 0.9;
+position: relative;
+font-size: 15px;
+}
+
