@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
 
 
  * {
@@ -6,3 +6,14 @@
    padding: 0;
    border: 0;
    }
+
+
+
+.hero-image {
+  background-image: url("/workspace/Travel-Tips-Ireland/img/hero-image.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
