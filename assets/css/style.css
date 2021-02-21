@@ -50,34 +50,40 @@ transform: scale(1.1);
 .text-block{
 padding: 15px;
 border-radius: 10px;
+top: 260px;
+left: 435px;
 text-align: center;
 opacity: 0.9;
 position: absolute;
-bottom: 330px;
-left: 450px;
 font-size: 16px;
 color: black;
 background-color: lightpink;
 }
 
 #text-block-header {
-font-size: 30px;
+font-size: 20px;
 }
 
-@media only screen and (min-width: >=756px ) {
-  .text-block-header{
-    bottom: 330px;
-    left: 450px;
+@media only screen and (max-width: 1024px) {
+  .text-block {
+    top: 230px;
+    left: 240px;
   }
+}
 
-  @media only screen and (min-width: <320px ) {
-   .text-block-header {
-    bottom: 33px;
-    left: 45px;
-    padding: 5px;
-    border-radius: 2px;
-    font-size: 8px;
-   }
+@media screen and (max-width: 320px) {
+  .text-block{
+    left: 35px;
+    top: 150px;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 80%;
+  }
+}
+
+
+
 
 
 
