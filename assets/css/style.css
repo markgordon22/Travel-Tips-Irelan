@@ -13,10 +13,15 @@ font-size: 20px;
 }
 
 .navbar-brand {
-font-size: 20px;
+font-size: 25px;
 letter-spacing: 1px;
 color: #000000;
+margin-left: 0px;
+}
 
+.navbar-brand:hover {
+color: green;
+transform: scale(1.1);
 }
 
 .nav-link{
@@ -25,9 +30,16 @@ font-size: 20px;
 
 }
 
+.nav-link:hover {
+color: green;
+transform: scale(1.1);
+}
+
+
+
 .hero-image {
   background-image: url("https://media.cntraveler.com/photos/56e79f7c83180b3e107eb020/master/w_2048,h_1536,c_limit/cliffs-of-moher-ireland-cr-getty.jpg");
-  height: 600px;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,14 +47,41 @@ font-size: 20px;
   width: 100%;
 }
 
-.btn-1 {
-margin-top: 300px;
-margin-left: 50%;
-padding: 20px;
-border-radius: 5px;
+.text-block{
+padding: 15px;
+border-radius: 10px;
 text-align: center;
 opacity: 0.9;
-position: relative;
-font-size: 15px;
+position: absolute;
+bottom: 330px;
+left: 450px;
+font-size: 16px;
+color: black;
+background-color: lightpink;
 }
+
+#text-block-header {
+font-size: 30px;
+}
+
+@media only screen and (min-width: >=756px ) {
+  .text-block-header{
+    bottom: 330px;
+    left: 450px;
+  }
+
+  @media only screen and (min-width: <320px ) {
+   .text-block-header {
+    bottom: 33px;
+    left: 45px;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 8px;
+   }
+
+
+
+
+
+
 
