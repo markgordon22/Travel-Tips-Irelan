@@ -7,6 +7,10 @@
    border: 0;
    }
 
+.container-fluid {
+width: 100%;
+}
+
 .navbar {
 color: white;
 font-size: 20px;
@@ -21,7 +25,9 @@ margin-left: 0px;
 
 .navbar-brand:hover {
 color: green;
-transform: scale(1.1);
+transform: scale(1.01);
+ -webkit-transform: scale(1.01);
+ 
 }
 
 .nav-link{
@@ -32,7 +38,8 @@ font-size: 20px;
 
 .nav-link:hover {
 color: green;
-transform: scale(1.1);
+transform: scale(1.01);
+-webkit-transform: scale(1.01);
 }
 
 
@@ -81,6 +88,17 @@ font-size: 20px;
     width: 80%;
   }
 }
+
+.about-page-hero-image {
+  background-image: url("/workspace/Travel-Tips-Ireland/img/about-page-hero-image.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
 
 
 
