@@ -1,19 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
  * {
    margin: 0;
    padding: 0;
    border: 0;
-   }
+   
+  }
 
 .container-fluid {
 width: 100%;
+
 }
 
 .navbar {
-color: white;
 font-size: 20px;
+}
+
+.navbar-nav {
+color: black;
+}
+
+.navbar-nav:hover {
+color: black;
 }
 
 .navbar-brand {
@@ -21,10 +29,11 @@ font-size: 25px;
 letter-spacing: 1px;
 color: #000000;
 margin-left: 0px;
+font-family: 'Akaya Telivigala', cursive;
 }
 
 .navbar-brand:hover {
-color: green;
+color: purple;
 transform: scale(1.01);
  -webkit-transform: scale(1.01);
  
@@ -32,72 +41,201 @@ transform: scale(1.01);
 
 .nav-link{
 color: #000000;
-font-size: 20px;
+font-size: 25px;
+font-family: 'Akaya Telivigala', cursive;
+margin-left: 40px;
 
 }
 
 .nav-link:hover {
-color: green;
+color: purple;
 transform: scale(1.01);
--webkit-transform: scale(1.01);
+
 }
 
-
-
-.hero-image {
+div.hero-image {
   background-image: url("https://media.cntraveler.com/photos/56e79f7c83180b3e107eb020/master/w_2048,h_1536,c_limit/cliffs-of-moher-ireland-cr-getty.jpg");
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   width: 100%;
-}
-
-.text-block{
-padding: 15px;
-border-radius: 10px;
-top: 260px;
-left: 435px;
-text-align: center;
-opacity: 0.9;
-position: absolute;
-font-size: 16px;
-color: black;
-background-color: lightpink;
-}
-
-#text-block-header {
-font-size: 20px;
-}
-
-@media only screen and (max-width: 1024px) {
-  .text-block {
-    top: 230px;
-    left: 240px;
+  position: fixed;
   }
+
+div#text-block-header {
+font-size: 40px;
+margin-top: 260px;
+color: white;
+opacity: 0.8;
+margin-left: 340px;
+font-family: 'Akaya Telivigala', cursive;
+ }
+
+ @media screen and (max-width: 321px) {
+div#text-block-header {
+font-size: 20px;
+margin-top: 65px;
+color: white;
+opacity: 0.8;
+margin-left: 0px;
+font-family: 'Akaya Telivigala', cursive;   
+  }
+
+}
+
+ @media screen and (max-width: 768px) {
+div#text-block-header {
+font-size: 40px;
+margin-top: 165px;
+color: white;
+opacity: 0.8;
+margin-left: 0px;
+text-align: center;
+font-family: 'Akaya Telivigala', cursive;   
+}
+}
+
+ @media screen and (max-width: 1024px) {
+div#text-block-header {
+font-size: 40px;
+margin-top: 165px;
+color: white;
+opacity: 0.8;
+margin-left: 0px;
+text-align: center;
+font-family: 'Akaya Telivigala', cursive;   
+}
+}
+
+ #hello-button {
+margin-left: 615px;
+top: 300px;
+border-radius: 4px;
+opacity: 0.9;
+padding: 10px;
+color: #000000;
+font-size: 25px;
+font-family: 'Akaya Telivigala', cursive;
 }
 
 @media screen and (max-width: 320px) {
-  .text-block{
-    left: 35px;
-    top: 150px;
-    padding: 10px;
-    font-size: 12px;
-    border-radius: 5px;
-    width: 80%;
-  }
-}
+#hello-button{
+margin-left: 30px;
+top: 300px;
+border-radius: 4px;
+opacity: 0.9;
+padding: 4px;
+color: #000000;
+font-size: 25px;
+font-family: 'Akaya Telivigala', cursive;
+}}
+
+
 
 .about-page-hero-image {
-  background-image: url("/workspace/Travel-Tips-Ireland/img/about-page-hero-image.jpg");
+  background-image: url("https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Ireland/Dublin/Dublin-nightlife-the-templebar-district-xlarge.jpg");
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   width: 100%;
 }
+
+h1#about-text-block-header  {
+padding: 5px;
+top: 20px;
+left: 50px;
+text-align: center;
+opacity: 0.85;
+position: absolute;
+font-size: 60px;
+color: white;
+font-family: 'Akaya Telivigala', cursive;
+}
+
+@media only screen and (max-width: 321px) {
+  h1#about-text-block-header{
+    left: 0px;
+    top: 265px;
+    padding: none;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1#about-text-block-header{
+    left: 10px;
+    top: 275px;
+    padding: none;
+    font-size: 60px;
+    width: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 1204px) {
+h1#about-text-block-header{
+    left: 20px;
+    top: 250px;
+    font-size: 70px;
+    width: 100%;
+
+}
+}
+
+@media screen and (min-width: 1204px) {
+h1#about-text-block-header{
+    left: 0px;
+    top: 270px;
+    font-size: 60px;
+    width: 100%;
+
+}
+}
+
+
+.card {
+margin-top: 15px;
+font-family: 'Akaya Telivigala', cursive;
+margin-bottom: 15px;
+background-color: antiquewhite;
+border: antiquewhite;
+}
+
+.card-img-top {
+height: 350px;
+border-radius: 5px;
+width: 100%;
+cursor: pointer;}
+
+img:hover {
+transform: scale(1.01);
+}
+
+.card-title {
+font-size: x-large;
+text-align: center;
+}
+
+.card-text {
+font-size: large;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
