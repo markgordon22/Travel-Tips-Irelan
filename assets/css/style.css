@@ -14,6 +14,7 @@ width: 100%;
 
 .navbar {
 font-size: 20px;
+border: 1px solid black;
 }
 
 .navbar-nav {
@@ -64,75 +65,92 @@ div.hero-image {
   }
 
 div#text-block-header {
-font-size: 40px;
-margin-top: 260px;
+padding: 5px;
+top: 20px;
+left: 50px;
+text-align: center;
+opacity: 0.85;
+font-size: 30px;
 color: white;
-opacity: 0.8;
-margin-left: 340px;
 font-family: 'Akaya Telivigala', cursive;
  }
 
- @media screen and (max-width: 321px) {
-div#text-block-header {
-font-size: 20px;
-margin-top: 65px;
-color: white;
-opacity: 0.8;
-margin-left: 0px;
-font-family: 'Akaya Telivigala', cursive;   
+ @media only screen and (max-width: 321px) {
+  div#text-block-header{
+    left: 0px;
+    margin-top: 130px;
+    padding: none;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
   }
-
 }
 
- @media screen and (max-width: 768px) {
-div#text-block-header {
-font-size: 40px;
-margin-top: 165px;
-color: white;
-opacity: 0.8;
-margin-left: 0px;
-text-align: center;
-font-family: 'Akaya Telivigala', cursive;   
+@media screen and (min-width: 768px) {
+div#text-block-header{
+    left: 20px;
+    margin-top: 205px;
+    font-size: 70px;
+    width: 100%;
 }
 }
 
- @media screen and (max-width: 1024px) {
-div#text-block-header {
-font-size: 40px;
-margin-top: 165px;
-color: white;
-opacity: 0.8;
-margin-left: 0px;
-text-align: center;
-font-family: 'Akaya Telivigala', cursive;   
+@media screen and (min-width: 1220px) {
+div#text-block-header{
+    left: 20px;
+    margin-top: 200px;
+    font-size: 70px;
+    width: 100%;
 }
 }
 
- #hello-button {
-margin-left: 615px;
-top: 300px;
-border-radius: 4px;
-opacity: 0.9;
-padding: 10px;
-color: #000000;
-font-size: 25px;
-font-family: 'Akaya Telivigala', cursive;
-}
-
-@media screen and (max-width: 320px) {
 #hello-button{
-margin-left: 30px;
-top: 300px;
-border-radius: 4px;
-opacity: 0.9;
-padding: 4px;
-color: #000000;
-font-size: 25px;
+padding: 5px;
+top: 20px;
+margin-left: 50px;
+text-align: center;
+opacity: 0.85;
+font-size: 60px;
+color: white;
 font-family: 'Akaya Telivigala', cursive;
-}}
+ }
 
+ @media only screen and (max-width: 321px) {
+  #hello-button{
+    margin-left: 24px;
+    margin-top: 2px;
+    padding: none;
+    font-size: 5px;
+    text-align: center;
+  }
+}
 
+@media screen and (max-width: 1204px) {
+#hello-button{
+    margin-left: 95px;
+    top: 250px;
+    font-size: 30px;
+    color: black;
+    border-radius: 4px;
+    
+}
+}
 
+@media screen and (min-width: 1205px) {
+#hello-button{
+    left: 20px;
+    margin-top: 2px;
+    margin-left: 600px;
+    font-size: 30px;
+    border-radius: 7px;
+    color: black;
+    
+}
+}
+
+ 
+
+ 
 .about-page-hero-image {
   background-image: url("https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Ireland/Dublin/Dublin-nightlife-the-templebar-district-xlarge.jpg");
   height: 700px;
@@ -140,13 +158,13 @@ font-family: 'Akaya Telivigala', cursive;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  
 }
 
 h1#about-text-block-header  {
 padding: 5px;
-top: 20px;
-left: 50px;
 text-align: center;
+margin-top: 40px;
 opacity: 0.85;
 position: absolute;
 font-size: 60px;
@@ -165,35 +183,21 @@ font-family: 'Akaya Telivigala', cursive;
   }
 }
 
-@media only screen and (max-width: 768px) {
-  h1#about-text-block-header{
-    left: 10px;
-    top: 275px;
-    padding: none;
-    font-size: 60px;
-    width: 100%;
-  }
-}
-
-
-
 @media screen and (max-width: 1204px) {
 h1#about-text-block-header{
     left: 20px;
     top: 250px;
     font-size: 70px;
     width: 100%;
-
 }
 }
 
-@media screen and (min-width: 1204px) {
+@media screen and (min-width: 1205px) {
 h1#about-text-block-header{
-    left: 0px;
-    top: 270px;
-    font-size: 60px;
+    left: 20px;
+    top: 250px;
+    font-size: 70px;
     width: 100%;
-
 }
 }
 
@@ -202,12 +206,14 @@ h1#about-text-block-header{
 margin-top: 15px;
 font-family: 'Akaya Telivigala', cursive;
 margin-bottom: 15px;
-background-color: antiquewhite;
+background-color: seashell;
 border: antiquewhite;
+
+
 }
 
 .card-img-top {
-height: 350px;
+height: 300px;
 border-radius: 5px;
 width: 100%;
 cursor: pointer;}
