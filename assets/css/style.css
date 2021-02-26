@@ -206,7 +206,7 @@ h1#about-text-block-header{
 margin-top: 15px;
 font-family: 'Akaya Telivigala', cursive;
 margin-bottom: 15px;
-background-color: seashell;
+background-color: white;
 border: antiquewhite;
 
 
@@ -214,7 +214,7 @@ border: antiquewhite;
 
 .card-img-top {
 height: 300px;
-border-radius: 5px;
+border-radius: 20px;
 width: 100%;
 cursor: pointer;}
 
