@@ -66,8 +66,6 @@ div.hero-image {
 
 div#text-block-header {
 padding: 5px;
-top: 20px;
-left: 50px;
 text-align: center;
 opacity: 0.85;
 font-size: 30px;
@@ -75,78 +73,168 @@ color: white;
 font-family: 'Akaya Telivigala', cursive;
  }
 
- @media only screen and (max-width: 321px) {
+ @media only screen and (max-width: 319.9px) {
   div#text-block-header{
-    left: 0px;
-    margin-top: 130px;
-    padding: none;
-    font-size: 35px;
-    width: 100%;
+    margin-left: 4px;
+    margin-top: 55px;
+    font-size: 40px;
     text-align: center;
   }
 }
 
-@media screen and (min-width: 768px) {
-div#text-block-header{
-    left: 20px;
-    margin-top: 205px;
-    font-size: 70px;
-    width: 100%;
-}
+ @media only screen and (min-width: 320px) {
+  div#text-block-header{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+  }
 }
 
-@media screen and (min-width: 1220px) {
-div#text-block-header{
-    left: 20px;
-    margin-top: 200px;
-    font-size: 70px;
-    width: 100%;
+@media only screen and (min-width: 414px) {
+  div#text-block-header{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 6px;
+  }
 }
+
+@media only screen and (min-width: 540px) {
+  div#text-block-header{
+    margin-top: 90px;
+    font-size: 60px;
+    text-align: center;
+    margin-right: 6px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div#text-block-header{
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 90px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  div#text-block-header{
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 90px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  div#text-block-header{
+    margin-top: 150px;
+    font-size: 90px;
+    text-align: center;
+  }
 }
 
 #hello-button{
-padding: 5px;
-top: 20px;
-margin-left: 50px;
-text-align: center;
-opacity: 0.85;
-font-size: 60px;
-color: white;
+color: black;
 font-family: 'Akaya Telivigala', cursive;
  }
 
- @media only screen and (max-width: 321px) {
+ @media only screen and (max-width: 319.9px) {
   #hello-button{
-    margin-left: 24px;
-    margin-top: 2px;
-    padding: none;
-    font-size: 5px;
+    margin-left: 73px;
+    margin-top: 10px;
+    font-size: 20px;
     text-align: center;
+    border-radius: 15px;
+    padding: 8px;
+    opacity: 0.9;
   }
 }
 
-@media screen and (max-width: 1204px) {
-#hello-button{
-    margin-left: 95px;
-    top: 250px;
-    font-size: 30px;
-    color: black;
-    border-radius: 4px;
-    
-}
+ @media only screen and (min-width: 320px) {
+  #hello-button{
+    margin-left: 75px;
+    margin-top: 5px;
+    font-size: 25px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 15px;
+    opacity: 0.9;
+  }
 }
 
-@media screen and (min-width: 1205px) {
-#hello-button{
-    left: 20px;
-    margin-top: 2px;
-    margin-left: 600px;
+@media only screen and (min-width: 375px) {
+  #hello-button{
+    margin-left: 90px;
+    margin-top: 10px;
     font-size: 30px;
-    border-radius: 7px;
-    color: black;
-    
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    opacity: 0.9;
+  }
 }
+
+@media only screen and (min-width: 414px) {
+  #hello-button{
+    margin-left: 95px;
+    margin-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    opacity: 0.9;
+  }
 }
+
+@media only screen and (min-width: 540px) {
+  #hello-button{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 195px;
+    padding: 8px;
+    border-radius: 15px;
+    opacity: 0.9;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #hello-button{
+    margin-top: 15px;
+    margin-left: 260px;
+    font-size: 40px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    opacity: 0.9;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #hello-button{
+    margin-top: 10px;
+    margin-left: 365px;
+    font-size: 35px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    opacity: 0.9;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  #hello-button{
+    margin-top: 15px;
+    margin-left: 580px;
+    font-size: 35px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    opacity: 0.9;
+  }
+}
+ 
 
  .about-page-hero-image {
   background-image: url("https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Ireland/Dublin/Dublin-nightlife-the-templebar-district-xlarge.jpg");
@@ -166,22 +254,40 @@ color: white;
 font-family: 'Akaya Telivigala', cursive;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
 h1#about-text-block-header{
-font-size: 63px;
+font-size: 53px;
 margin-top: 165px;
-margin-left: 47px;
+margin-left: 36px;
+text-align: center;
+}
+}
+
+@media screen and (min-width: 320px) {
+h1#about-text-block-header{
+font-size: 53px;
+margin-top: 165px;
+margin-left: 54px;
+text-align: center;
+}
+}
+
+@media screen and (min-width: 375px) {
+h1#about-text-block-header{
+font-size: 53px;
+margin-top: 165px;
+margin-left: 79px;
 text-align: center;
 }
 }
 
 
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 414px) {
 h1#about-text-block-header{
 font-size: 63px;
 margin-top: 165px;
-margin-left: 47px;
+margin-left: 80px;
 text-align: center;
 }
 }
@@ -218,8 +324,8 @@ text-align: center;
 
 @media screen and (min-width: 1224px) {
 h1#about-text-block-header{
- margin-right: 30px;
-font-size: 100px;
+ margin-right: 10px;
+font-size: 130px;
 text-align: center;
 opacity: 0.85;
 }
