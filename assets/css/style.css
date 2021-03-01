@@ -358,7 +358,7 @@ text-align: center;
 }
 
 .card-text {
-font-size: large;
+font-size: 20px;
 text-align: center;
 }
 
@@ -369,6 +369,7 @@ padding: 12px;
 background-color: rgb(0, 132, 255);
 font-size: 18px;
 color: white;
+
 }
 
 h1#ourtips-header {
@@ -407,17 +408,68 @@ text-align: center;
 
 label {
 font-family: 'Akaya Telivigala', cursive;
-font-size: 25px;
-color: blue;
+font-size: 35px;
+color: white;
+letter-spacing: 1px;
 }
+
+
 
 #send-message-header{
-font-size: 40px;
+font-size: 35px;
 font-family: 'Akaya Telivigala', cursive;
-margin: 20px;
+margin: 10px;
 text-align: center;
-
+color: white;
 }
+
+.contact-hero-image{
+background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
+  height: 990px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.send-message-button {
+background-color: coral;
+}
+
+@media screen and (max-width: 414px) {
+ #send-message-header{
+ margin-top: 15px;
+ margin-bottom: 15px;
+font-size: 27px;
+text-align: center;
+}
+}
+
+#contact-us-header {
+color: white;
+text-align: center;
+font-family: 'Akaya Telivigala', cursive;
+margin-top: 15px;
+font-size: 40px;
+}
+
+@media screen and (max-width: 414px) {
+ #contact-us-header {
+ font-size: 30px;
+}
+}
+
+@media screen and (max-width: 414px) {
+ .contact-hero-image{
+ background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
+  height: 1300px;
+}
+}
+
+
+
+
+
 
 
 
