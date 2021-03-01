@@ -5,6 +5,7 @@
    padding: 0;
    border: 0;
    
+   
   }
 
 .container-fluid {
@@ -27,21 +28,21 @@ color: black;
 
 .navbar-brand {
 font-size: 25px;
-letter-spacing: 1px;
-color: #000000;
+letter-spacing: none;
+color: black;
 margin-left: 0px;
 font-family: 'Akaya Telivigala', cursive;
 }
 
 .navbar-brand:hover {
-color: purple;
-transform: scale(1.01);
- -webkit-transform: scale(1.01);
+color: black;
+transform: scale(1.03);
+ -webkit-transform: scale(1.03);
  
 }
 
 .nav-link{
-color: #000000;
+color: black;
 font-size: 25px;
 font-family: 'Akaya Telivigala', cursive;
 margin-left: 40px;
@@ -49,9 +50,9 @@ margin-left: 40px;
 }
 
 .nav-link:hover {
-color: purple;
-transform: scale(1.01);
-
+color: black;
+transform: scale(1.03);
+-webkit-transform: scale(1.03);
 }
 
 div.hero-image {
@@ -238,7 +239,7 @@ font-family: 'Akaya Telivigala', cursive;
 
  .about-page-hero-image {
   background-image: url("https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Ireland/Dublin/Dublin-nightlife-the-templebar-district-xlarge.jpg");
-  height: 550px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -363,6 +364,11 @@ text-align: center;
 
 .btn {
 margin-top: 10px;
+border-radius: 10px;
+padding: 12px;
+background-color: rgb(0, 132, 255);
+font-size: 18px;
+color: white;
 }
 
 h1#ourtips-header {
@@ -397,6 +403,20 @@ h1#ourtips-header {
 font-size: 45px;
 text-align: center;
 }
+}
+
+label {
+font-family: 'Akaya Telivigala', cursive;
+font-size: 25px;
+color: blue;
+}
+
+#send-message-header{
+font-size: 40px;
+font-family: 'Akaya Telivigala', cursive;
+margin: 20px;
+text-align: center;
+
 }
 
 
