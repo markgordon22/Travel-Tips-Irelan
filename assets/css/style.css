@@ -45,7 +45,7 @@ transform: scale(1.03);
 
 div.hero-image {
   background-image: url("https://media.cntraveler.com/photos/56e79f7c83180b3e107eb020/master/w_2048,h_1536,c_limit/cliffs-of-moher-ireland-cr-getty.jpg");
-  height: 700px;
+  height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,14 +54,21 @@ div.hero-image {
 
 div#text-block-header {
 text-align: center;
-opacity: 0.85;
+opacity: 0.9;
 color: white;
 font-family: 'Akaya Telivigala', cursive;
+font-size: 60px;
  }
 
- 
- 
-.about-page-hero-image {
+ #hello-button {
+padding: 10px;
+border-radius: 15px;
+font-size: 20px;
+font-family: 'Akaya Telivigala', cursive;
+margin-top: 10px;
+ }
+
+ .about-page-hero-image {
   background-image: url("https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Ireland/Dublin/Dublin-nightlife-the-templebar-district-xlarge.jpg");
   height: 500px;
   background-position: center;
@@ -78,7 +85,6 @@ color: white;
 font-family: 'Akaya Telivigala', cursive;
 font-size: 60px;
 }
-
 
 
 
@@ -156,7 +162,7 @@ color: white;
 
 .contact-hero-image{
   background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
-  height: 990px;
+  height: 1500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -198,7 +204,70 @@ background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/170705180555-newgra
 
 /*-----media queries------*/
 
+ @media screen and (max-width: 600px){
+div#text-block-header{
+padding-top: 50px;
+}
+}
 
+@media screen and (min-width: 768px){
+div#text-block-header{
+padding-top: 90px;
+}
+}
+
+@media screen and (min-width: 1224px){
+div#text-block-header{
+padding-top: 130px;
+padding-right: 25px;
+}
+}
+
+@media screen and (max-width: 280px){
+#hello-button{
+margin-left: 55px;
+}}
+
+@media screen and (min-width: 320px){
+#hello-button{
+margin-left: 73px;
+}}
+
+@media screen and (min-width: 375px){
+#hello-button{
+margin-left: 100px;
+}}
+
+@media screen and (min-width: 414px){
+#hello-button{
+margin-left: 122px;
+}}
+
+
+ @media screen and (min-width: 540px){
+#hello-button{
+margin-left: 140px;
+}}
+
+@media screen and (min-width: 768px){
+#hello-button{
+margin-left: 300px;
+}}
+
+@media screen and (min-width: 992px){
+#hello-button{
+margin-left: 420px;
+}}
+
+@media screen and (min-width: 1024px){
+#hello-button{
+margin-left: 420px;
+}}
+
+@media screen and (min-width: 1224px){
+#hello-button{
+margin-left: 630px;
+}}
 
 
 
