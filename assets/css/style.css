@@ -4,13 +4,10 @@
    margin: 0;
    padding: 0;
    border: 0;
-   
-   
-  }
+}
 
 .container-fluid {
 width: 100%;
-
 }
 
 .navbar {
@@ -18,19 +15,10 @@ font-size: 20px;
 border-bottom: 1px solid black;
 }
 
-.navbar-nav {
-color: black;
-}
-
-.navbar-nav:hover {
-color: black;
-}
-
 .navbar-brand {
 font-size: 25px;
 letter-spacing: none;
 color: black;
-margin-left: 0px;
 font-family: 'Akaya Telivigala', cursive;
 }
 
@@ -62,182 +50,146 @@ div.hero-image {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  position: fixed;
   }
 
 div#text-block-header {
-padding: 5px;
 text-align: center;
 opacity: 0.85;
-font-size: 30px;
 color: white;
 font-family: 'Akaya Telivigala', cursive;
  }
 
  @media only screen and (max-width: 319.9px) {
   div#text-block-header{
-    margin-left: 4px;
-    margin-top: 55px;
     font-size: 40px;
     text-align: center;
+    padding-top: 50px;
   }
 }
 
  @media only screen and (min-width: 320px) {
   div#text-block-header{
-    margin-top: 50px;
     font-size: 40px;
     text-align: center;
+    padding-top: 50px;
   }
 }
 
 @media only screen and (min-width: 414px) {
   div#text-block-header{
-    margin-top: 50px;
     font-size: 40px;
     text-align: center;
-    margin-right: 6px;
+    font-size: 45px;
+    padding-top: 50px;
   }
 }
 
 @media only screen and (min-width: 540px) {
   div#text-block-header{
-    margin-top: 90px;
     font-size: 60px;
     text-align: center;
-    margin-right: 6px;
+    padding-top: 50px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   div#text-block-header{
-    margin-left: 10px;
-    margin-top: 70px;
-    font-size: 90px;
+    font-size: 70px;
     text-align: center;
+    padding-top: 60px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   div#text-block-header{
-    margin-left: 10px;
-    margin-top: 70px;
-    font-size: 90px;
+   font-size: 90px;
     text-align: center;
+    padding-top: 60px;
   }
 }
 
 @media only screen and (min-width: 1224px) {
   div#text-block-header{
-    margin-top: 150px;
     font-size: 90px;
     text-align: center;
+    padding-top: 80px;
   }
 }
 
 #hello-button{
 color: black;
 font-family: 'Akaya Telivigala', cursive;
+font-size: 25px;
+opacity: 0.9;
+border-radius: 15px;
+text-align: center;
+
  }
 
  @media only screen and (max-width: 319.9px) {
   #hello-button{
-    margin-left: 73px;
-    margin-top: 10px;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 15px;
-    padding: 8px;
-    opacity: 0.9;
+    padding: 2px;
+    margin-left: 50px;
   }
 }
 
  @media only screen and (min-width: 320px) {
   #hello-button{
-    margin-left: 75px;
-    margin-top: 5px;
-    font-size: 25px;
-    padding: 8px;
-    text-align: center;
-    border-radius: 15px;
-    opacity: 0.9;
+    padding: 4px;
+    margin-left: 70px;
+    font-size: 22px;
+    margin-top: 10px;
+    
   }
 }
 
 @media only screen and (min-width: 375px) {
   #hello-button{
-    margin-left: 90px;
+    padding: 5px;
+    margin-left: 99px;
     margin-top: 10px;
-    font-size: 30px;
-    text-align: center;
-    padding: 8px;
-    border-radius: 15px;
-    opacity: 0.9;
   }
 }
 
 @media only screen and (min-width: 414px) {
   #hello-button{
-    margin-left: 95px;
+    padding: 6px;
+    margin-left: 117px;
     margin-top: 10px;
-    font-size: 35px;
-    text-align: center;
-    padding: 8px;
-    border-radius: 15px;
-    opacity: 0.9;
-  }
 }
 
 @media only screen and (min-width: 540px) {
   #hello-button{
-    margin-top: 20px;
-    font-size: 20px;
-    text-align: center;
-    margin-left: 195px;
-    padding: 8px;
-    border-radius: 15px;
-    opacity: 0.9;
-  }
+    padding: 6px;
+    margin-left: 185px;
+    margin-top: 10px;
 }
 
 @media only screen and (min-width: 768px) {
   #hello-button{
-    margin-top: 15px;
-    margin-left: 260px;
-    font-size: 40px;
-    text-align: center;
-    padding: 8px;
-    border-radius: 15px;
-    opacity: 0.9;
+   padding: 8px;
+   margin-left: 295px;
+   margin-top: 10px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #hello-button{
-    margin-top: 10px;
-    margin-left: 365px;
-    font-size: 35px;
-    text-align: center;
+    margin-left: 425px;
     padding: 8px;
-    border-radius: 15px;
-    opacity: 0.9;
+    margin-top: 10px;
   }
 }
 
 @media only screen and (min-width: 1224px) {
   #hello-button{
-    margin-top: 15px;
-    margin-left: 580px;
-    font-size: 35px;
-    text-align: center;
+    margin-left: 610px;
     padding: 8px;
-    border-radius: 15px;
-    opacity: 0.9;
+     margin-top: 10px;
   }
 }
  
-
- .about-page-hero-image {
+.about-page-hero-image {
   background-image: url("https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Ireland/Dublin/Dublin-nightlife-the-templebar-district-xlarge.jpg");
   height: 500px;
   background-position: center;
@@ -406,11 +358,13 @@ text-align: center;
 }
 }
 
-label {
+label{
 font-family: 'Akaya Telivigala', cursive;
-font-size: 35px;
+font-size: 30px;
 color: white;
 letter-spacing: 1px;
+font-weight: 700;
+text-align: center;
 }
 
 
@@ -424,7 +378,7 @@ color: white;
 }
 
 .contact-hero-image{
-background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
+  background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
   height: 990px;
   background-position: center;
   background-repeat: no-repeat;
@@ -434,6 +388,12 @@ background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615
 
 .send-message-button {
 background-color: coral;
+color:white
+}
+
+.send-message-button:hover {
+transform: scale(1.03);
+color: white;
 }
 
 @media screen and (max-width: 414px) {
@@ -459,12 +419,21 @@ font-size: 40px;
 }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 768px) {
+ .contact-hero-image{
+ background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
+  height: 1200px;
+}
+}
+
+@media screen and (max-width: 319px) {
  .contact-hero-image{
  background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
   height: 1300px;
 }
 }
+
+
 
 
 
