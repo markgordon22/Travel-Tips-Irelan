@@ -44,7 +44,7 @@ transform: scale(1.03);
 }
 
 div.hero-image {
-  background-image: url("https://media.cntraveler.com/photos/56e79f7c83180b3e107eb020/master/w_2048,h_1536,c_limit/cliffs-of-moher-ireland-cr-getty.jpg");
+  background-image: url("https://cdn.audleytravel.com/3600/2568/79/1322769-cliffs-of-moher-at-sunset.jpg");
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,7 +57,8 @@ text-align: center;
 opacity: 0.9;
 color: white;
 font-family: 'Akaya Telivigala', cursive;
-font-size: 60px;
+font-size: 70px;
+letter-spacing: 1px;
  }
 
  #hello-button {
@@ -65,7 +66,7 @@ padding: 10px;
 border-radius: 15px;
 font-size: 20px;
 font-family: 'Akaya Telivigala', cursive;
-margin-top: 10px;
+
  }
 
  .about-page-hero-image {
@@ -80,11 +81,25 @@ margin-top: 10px;
 
 h1#about-text-block-header  {
 text-align: center;
-opacity: 0.85;
 color: white;
 font-family: 'Akaya Telivigala', cursive;
-font-size: 60px;
+font-size: 70px;
+letter-spacing: 1px;
 }
+
+@media screen and (max-width: 1204px){
+h1#about-text-block-header  {
+padding-top: 110px;
+}
+}
+
+@media screen and (min-width: 1224px){
+h1#about-text-block-header  {
+padding-top: 110px;
+}
+}
+
+
 
 
 
@@ -133,7 +148,7 @@ text-align: center;
 color: white;
 opacity: 1;
 text-decoration: none;
-font-size: 60px;
+font-size: 70px;
 padding-top: 50px;
 letter-spacing: 2px;
 }
@@ -186,14 +201,14 @@ color: white;
 text-align: center;
 font-family: 'Akaya Telivigala', cursive;
 margin-top: 15px;
-font-size: 35px;
+font-size: 75px;
 }
 
 
 
 
 .our-tips-hero-image{
-background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/170705180555-newgrange-brian-morrison-tourism-ireland.jpg");
+background-image: url("http://static1.squarespace.com/static/545cddf9e4b00403fdcff4eb/58c99a7f86e6c07b2ffc7a00/5ae89852aa4a99ef2fbb1ada/1570353615545/?format=1500w");
   height: 760px;
   background-position: center;
   background-repeat: no-repeat;
@@ -206,13 +221,13 @@ background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/170705180555-newgra
 
  @media screen and (max-width: 600px){
 div#text-block-header{
-padding-top: 50px;
+padding-top: 30px;
 }
 }
 
 @media screen and (min-width: 768px){
 div#text-block-header{
-padding-top: 90px;
+padding-top: 80px;
 }
 }
 
