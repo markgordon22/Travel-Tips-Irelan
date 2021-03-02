@@ -128,7 +128,7 @@ text-align: center;
 
  @media only screen and (max-width: 319.9px) {
   #hello-button{
-    padding: 2px;
+    padding: 5px;
     margin-left: 50px;
   }
 }
@@ -202,35 +202,26 @@ text-align: center;
 h1#about-text-block-header  {
 text-align: center;
 opacity: 0.85;
-position: absolute;
 color: white;
 font-family: 'Akaya Telivigala', cursive;
+font-size: 60px;
 }
 
 @media screen and (max-width: 319px) {
 h1#about-text-block-header{
-font-size: 53px;
-margin-top: 165px;
-margin-left: 36px;
-text-align: center;
+padding-top: 50px;
 }
 }
 
 @media screen and (min-width: 320px) {
 h1#about-text-block-header{
-font-size: 53px;
-margin-top: 165px;
-margin-left: 54px;
-text-align: center;
+padding-top: 50px;
 }
 }
 
 @media screen and (min-width: 375px) {
 h1#about-text-block-header{
-font-size: 53px;
-margin-top: 165px;
-margin-left: 79px;
-text-align: center;
+padding-top: 50px;
 }
 }
 
@@ -238,38 +229,25 @@ text-align: center;
 
 @media screen and (min-width: 414px) {
 h1#about-text-block-header{
-font-size: 63px;
-margin-top: 165px;
-margin-left: 80px;
-text-align: center;
+padding-top: 50px;
 }
 }
 
 @media screen and (min-width: 540px) {
 h1#about-text-block-header{
-font-size: 63px;
-margin-top: 165px;
-margin-left: 140px;
-text-align: center;
-}
+padding-top: 50px;
 }
 
 
 @media screen and (min-width: 768px) {
 h1#about-text-block-header{
-font-size: 83px;
-margin-top: 150px;
-margin-left: 195px;
-text-align: center;
+padding-top: 50px;
 }
 }
 
 @media screen and (min-width: 992px) {
 h1#about-text-block-header {
-font-size: 90px;
-margin-top: 180px;
-margin-left: 310px;
-text-align: center;
+padding-top: 50px;
 
 }
 }
@@ -277,11 +255,7 @@ text-align: center;
 
 @media screen and (min-width: 1224px) {
 h1#about-text-block-header{
- margin-right: 10px;
-font-size: 130px;
-text-align: center;
-opacity: 0.85;
-}
+padding-top: 50px;
 }
 
 
@@ -326,45 +300,25 @@ color: white;
 
 h1#ourtips-header {
 font-family: 'Akaya Telivigala', cursive;
-font-size: 25px;
 text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-h1#ourtips-header {
-font-size: 33px;
-margin: 15px;
-margin-left: 29px;
-text-align: center;
-}
-}
-
-@media screen and (min-width: 992px) {
-h1#ourtips-header {
-font-size: 43px;
-margin: 15px;
-margin-left: 41px;
-text-align: center;
-}
+color: white;
+opacity: 1;
+text-decoration: none;
+font-size: 60px;
+padding-top: 50px;
+letter-spacing: 2px;
 }
 
 
-@media screen and (min-width: 1204px) {
-h1#ourtips-header {
- margin-top: 15px;
- margin-bottom: 15px;
-font-size: 45px;
-text-align: center;
-}
-}
 
 label{
 font-family: 'Akaya Telivigala', cursive;
-font-size: 30px;
+font-size: 25px;
 color: white;
 letter-spacing: 1px;
 font-weight: 700;
 text-align: center;
+
 }
 
 
@@ -386,7 +340,7 @@ color: white;
   width: 100%;
 }
 
-.send-message-button {
+.send-message-button{
 background-color: coral;
 color:white
 }
@@ -410,7 +364,7 @@ color: white;
 text-align: center;
 font-family: 'Akaya Telivigala', cursive;
 margin-top: 15px;
-font-size: 40px;
+font-size: 35px;
 }
 
 @media screen and (max-width: 414px) {
@@ -432,6 +386,19 @@ font-size: 40px;
   height: 1300px;
 }
 }
+
+.our-tips-hero-image{
+background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/170705180555-newgrange-brian-morrison-tourism-ireland.jpg");
+  height: 760px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+
+/*-----media queries------*/
+
 
 
 
