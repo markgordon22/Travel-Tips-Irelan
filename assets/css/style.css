@@ -10,6 +10,14 @@
 width: 100%;
 }
 
+.footer-container {
+border-top: 1px solid black;
+}
+
+.ourtips-container {
+border-top: 1px solid black;
+}
+
 .navbar {
 font-size: 20px;
 border-bottom: 1px solid black;
