@@ -52,7 +52,7 @@ transform: scale(1.03);
 }
 
 div.hero-image {
-  background-image: url("https://cdn.audleytravel.com/3600/2568/79/1322769-cliffs-of-moher-at-sunset.jpg");
+  background-image: url("https://lp-cms-production.imgix.net/2019-06/479710035_high.jpg");
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,7 +62,6 @@ div.hero-image {
 
 div#text-block-header {
 text-align: center;
-opacity: 0.9;
 color: white;
 font-family: 'Akaya Telivigala', cursive;
 font-size: 70px;
@@ -95,7 +94,15 @@ font-size: 70px;
 letter-spacing: 1px;
 }
 
-@media screen and (max-width: 1204px){
+@media screen and (max-width: 600px){
+h1#about-text-block-header  {
+font-size: 50px;
+padding-top: 35px;
+}
+}
+
+
+@media screen and (min-width: 1204px){
 h1#about-text-block-header  {
 padding-top: 110px;
 }
@@ -161,6 +168,13 @@ font-size: 70px;
 padding-top: 50px;
 letter-spacing: 2px;
 }
+
+@media screen and (max-width: 600px){
+h1#ourtips-header {
+font-size: 50px;
+}
+}
+
 
 
 
@@ -247,15 +261,16 @@ background-image: url("http://static1.squarespace.com/static/545cddf9e4b00403fdc
 
 /*-----media queries------*/
 
- @media screen and (max-width: 600px){
+@media screen and (max-width: 767.9px){
 div#text-block-header{
-padding-top: 30px;
+padding-top: 60px;
+font-size: 50px;
 }
 }
 
 @media screen and (min-width: 768px){
 div#text-block-header{
-padding-top: 80px;
+padding-top: 50px;
 }
 }
 
@@ -281,6 +296,11 @@ margin-left: 73px;
 margin-left: 100px;
 }}
 
+@media screen and (min-width: 411px){
+#hello-button{
+margin-left: 123px;
+}}
+
 @media screen and (min-width: 414px){
 #hello-button{
 margin-left: 122px;
@@ -289,7 +309,7 @@ margin-left: 122px;
 
  @media screen and (min-width: 540px){
 #hello-button{
-margin-left: 140px;
+margin-left: 185px;
 }}
 
 @media screen and (min-width: 768px){
