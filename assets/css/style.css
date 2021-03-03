@@ -96,6 +96,7 @@ padding-top: 110px;
 @media screen and (min-width: 1224px){
 h1#about-text-block-header  {
 padding-top: 110px;
+padding-right: 60px;
 }
 }
 
@@ -170,19 +171,38 @@ text-align: center;
 #send-message-header{
 font-size: 35px;
 font-family: 'Akaya Telivigala', cursive;
-margin: 10px;
+
 text-align: center;
 color: white;
 }
 
 .contact-hero-image{
-  background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
-  height: 1500px;
+background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
 }
+
+@media screen and (max-width: 600px){
+ .contact-hero-image{
+background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
+height: 1900px;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}}
+
+@media screen and (min-width: 600.01px){
+ .contact-hero-image{
+background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
+height: 1250px;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}}
 
 .send-message-button{
 background-color: coral;
@@ -200,8 +220,8 @@ color: white;
 color: white;
 text-align: center;
 font-family: 'Akaya Telivigala', cursive;
-margin-top: 15px;
-font-size: 75px;
+margin-top: 5px;
+font-size: 70px;
 }
 
 
