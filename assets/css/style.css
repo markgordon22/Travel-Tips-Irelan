@@ -101,7 +101,7 @@ font-size: 70px;
 letter-spacing: 1px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1203.9px){
 h1#about-text-block-header  {
 font-size: 50px;
 padding-top: 35px;
@@ -111,20 +111,16 @@ padding-top: 35px;
 
 @media screen and (min-width: 1204px){
 h1#about-text-block-header  {
-padding-top: 110px;
+padding-top: 50px;
 }
 }
 
 @media screen and (min-width: 1224px){
 h1#about-text-block-header  {
-padding-top: 110px;
+padding-top: 50px;
 padding-right: 60px;
 }
 }
-
-
-
-
 
 .card {
 margin-top: 35px;
@@ -251,7 +247,7 @@ color: white;
 color: white;
 text-align: center;
 font-family: 'Akaya Telivigala', cursive;
-margin-top: 5px;
+padding-top: 50px;
 font-size: 70px;
 }
 
@@ -267,9 +263,12 @@ background-image: url("http://static1.squarespace.com/static/545cddf9e4b00403fdc
   width: 100%;
 }
 
+
+
 li:hover{
 transform: scale(1.12);
 }
+
 
 
 /*-----media queries------*/
@@ -349,6 +348,14 @@ margin-left: 420px;
 #hello-button{
 margin-left: 630px;
 }}
+
+@media screen and (max-width: 374.9px){
+#contact-us-header{
+padding-top: 25px;
+font-size: 50px;
+}
+}
+
 
 
 
