@@ -12,12 +12,11 @@ width: 100%;
 
 .footer-container {
 border-top: 1px solid black;
-
+min-height: 100px;
 }
 
 .ourtips-container {
 border-top: 1px solid black;
-
 }
 
 .navbar {
@@ -36,15 +35,13 @@ font-family: 'Akaya Telivigala', cursive;
 color: black;
 transform: scale(1.12);
  -webkit-transform: scale(1.03);
- 
-}
+ }
 
 .nav-link{
 color: black;
 font-size: 25px;
 font-family: 'Akaya Telivigala', cursive;
 margin-left: 40px;
-
 }
 
 .nav-link:hover {
@@ -60,7 +57,7 @@ div.hero-image {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  }
+}
 
 div#text-block-header {
 text-align: center;
@@ -68,29 +65,28 @@ color: white;
 font-family: 'Akaya Telivigala', cursive;
 font-size: 70px;
 letter-spacing: 1px;
- }
+}
 
- #hello-button {
+#hello-button {
 padding: 10px;
 border-radius: 15px;
 font-size: 20px;
 font-family: 'Akaya Telivigala', cursive;
 color: black;
+border: 1px solid black;
 }
 
 #hello-button:hover {
 transform: scale(1.09);
+}
 
- }
-
- .about-page-hero-image {
-  background-image: url("https://gaietyschool.com/wp-content/uploads/2019/04/main_banner_1.jpg");
-  height: 600px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  
+.about-page-hero-image {
+background-image: url("https://gaietyschool.com/wp-content/uploads/2019/04/main_banner_1.jpg");
+height: 600px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
 }
 
 h1#about-text-block-header  {
@@ -107,7 +103,6 @@ font-size: 50px;
 padding-top: 35px;
 }
 }
-
 
 @media screen and (min-width: 1204px){
 h1#about-text-block-header  {
@@ -180,9 +175,6 @@ font-size: 50px;
 }
 }
 
-
-
-
 label{
 font-family: 'Akaya Telivigala', cursive;
 font-size: 25px;
@@ -190,45 +182,41 @@ color: white;
 letter-spacing: 1px;
 font-weight: 700;
 text-align: center;
-
 }
-
-
 
 #send-message-header{
 font-size: 35px;
 font-family: 'Akaya Telivigala', cursive;
-
 text-align: center;
 color: white;
 }
 
 .contact-hero-image{
 background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
 }
 
 @media screen and (max-width: 600px){
- .contact-hero-image{
+.contact-hero-image{
 background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
 height: 1900px;
 background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
 }}
 
 @media screen and (min-width: 600.01px){
- .contact-hero-image{
+.contact-hero-image{
 background-image: url("https://i.pinimg.com/originals/5a/f7/ed/5af7ed231a30a8615f9d2320d370456c.jpg");
 height: 1250px;
 background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
 }}
 
 .send-message-button{
@@ -241,8 +229,6 @@ transform: scale(1.08);
 color: white;
 }
 
-
-
 #contact-us-header {
 color: white;
 text-align: center;
@@ -251,25 +237,18 @@ padding-top: 50px;
 font-size: 70px;
 }
 
-
-
-
 .our-tips-hero-image{
 background-image: url("http://static1.squarespace.com/static/545cddf9e4b00403fdcff4eb/58c99a7f86e6c07b2ffc7a00/5ae89852aa4a99ef2fbb1ada/1570353615545/?format=1500w");
-  height: 760px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+height: 760px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
 }
-
-
 
 li:hover{
 transform: scale(1.12);
 }
-
-
 
 /*-----media queries------*/
 
@@ -348,6 +327,9 @@ margin-left: 420px;
 #hello-button{
 margin-left: 630px;
 }}
+
+
+
 
 @media screen and (max-width: 374.9px){
 #contact-us-header{
