@@ -96,7 +96,7 @@ letter-spacing: 1px;
 border-radius: 15px;
 opacity: 0.8;
 padding: 0;
-margin: 5px;
+text-align: center;
 }
 
 .about-page-hero-image {
@@ -347,13 +347,7 @@ margin-left: 420px;
 margin-left: 630px;
 }}
 
-@media screen and (max-width: 600px){
-.button-text {
-font-size: 20px;
-margin-right: 1px;
-margin-left: 1px;
-}
-}
+
 
 @media screen and (max-width: 374.9px){
 #contact-us-header{
