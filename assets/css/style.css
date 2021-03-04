@@ -74,10 +74,29 @@ font-size: 20px;
 font-family: 'Akaya Telivigala', cursive;
 color: black;
 border: 1px solid black;
+text-align: center;
+color: black;
+background-color: white;
 }
 
 #hello-button:hover {
 transform: scale(1.09);
+}
+
+.button-text {
+font-family: 'Akaya Telivigala', cursive;
+font-size: 40px;
+margin-top: 10px;
+color: white;
+text-align: center;
+letter-spacing: 1px;
+}
+
+.button-dropdown-container{
+border-radius: 15px;
+opacity: 0.8;
+padding: 0;
+margin: 5px;
 }
 
 .about-page-hero-image {
@@ -328,8 +347,13 @@ margin-left: 420px;
 margin-left: 630px;
 }}
 
-
-
+@media screen and (max-width: 600px){
+.button-text {
+font-size: 20px;
+margin-right: 1px;
+margin-left: 1px;
+}
+}
 
 @media screen and (max-width: 374.9px){
 #contact-us-header{
