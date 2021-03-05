@@ -149,7 +149,8 @@ border-radius: 25px;
 height: 300px;
 border-radius: 25px;
 width: 100%;
-cursor: pointer;}
+cursor: pointer;
+}
 
 img:hover {
 transform: scale(1.01);
