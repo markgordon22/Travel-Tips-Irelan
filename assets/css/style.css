@@ -35,18 +35,19 @@ width: 100%;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   outline: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  background-color: #fff;
+  background-color: #ffffff;
   font-family: 'Akaya Telivigala', cursive;
 }
 
 #pac-container {
   padding-bottom: 12px;
+
 }
 
 .pac-controls {
   display: inline-block;
   padding: 5px 11px;
+
 }
 
 .pac-controls label {
@@ -56,8 +57,11 @@ width: 100%;
 }
 
 #pac-input {
-  background-color: #fff;
+  background-color: #ffffff;
+  color: #000000;
   font-family: 'Akaya Telivigala', cursive;
+  border-radius: 8px;
+  border: 1px solid black;
   font-size: 20px;
   font-weight: 200;
   margin-top: 30px;
@@ -66,12 +70,15 @@ width: 100%;
   width: 500px;
 }
 
+.google-input{
+margin-left: 445px;
+}
 
 
 #title {
-  color: #fff;
-  background-color: #4d90fe;
-  font-size: 25px;
+  color: #000000;
+  
+  font-size: 60px;
   font-weight: 500;
   padding: 6px 12px;
 }

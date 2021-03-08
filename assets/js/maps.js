@@ -4,11 +4,19 @@ markers=[]
 function initMap() {
     const card = document.getElementById("pac-card");
     const input = document.getElementById("pac-input");
-    const points = [{ lat: 53.7, lng: -6.3,content:"hello there ",title:"" },
-    { lat: 52.25833, lng: -7.11194,content:"waterford",title:"" }
+    const points = [
+    { lat: 53.7,
+     lng: -6.3,
+     content:
+     "Belfast",title:"" },
+
+    { lat: 52.25833,
+     lng: -7.11194,
+     content:
+     "waterford",title:"" }
 ];
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 4,
+      zoom: 6.3,
       center: {lat:53,lng:-6},
     });
    
@@ -53,7 +61,7 @@ function initMap() {
         window.alert("No details available for input: '" + place.name + "'");
         return;
       }
-      
+      /*code below from google maps platform autocomplete search*/
       if (place.geometry.viewport) {
           map.fitBounds(place.geometry.viewport);
         } else {
