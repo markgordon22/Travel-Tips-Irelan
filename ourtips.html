@@ -20,7 +20,7 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
 
-    <title>MTravel Tips Ireland</title>
+    <title>Travel Tips Ireland</title>
 
     </head>
 
@@ -49,6 +49,27 @@
                 <h1 id="ourtips-header">Our Travel tips</h1>
 
             
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="pac-card" id="pac-card">
+    <div>
+      <div id="title">Search for location</div>
+      <div id="type-selector" class="pac-controls">
+        
+    <div id="pac-container">
+      <input id="pac-input" type="text" placeholder="Enter a location" />
+    </div>
+  </div>
+<div id="map">
+  <div id="infowindow-content">
+    <span id="place-name" class="title"></span><br />
+    <span id="place-address"></span>
+  </div>
 </div>
 </div>
 </div>
@@ -306,7 +327,16 @@ Limerick also a fantastic choice of restaurants to suit all tastes and budgets a
 </div>
 </div>
 </div>
+<script>
+
+</script>
+
+ <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    
+    
+ <script src="assets/js/maps.js"></script>
  
+
   <script
         src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js">
     </script>
@@ -322,6 +352,8 @@ Limerick also a fantastic choice of restaurants to suit all tastes and budgets a
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     
     <script src="assets/js/script.js"></script>
+    <script type="text/javascript" src='https://maps.googleapis.com/maps/api/js?v=3&sensor=false&amp;libraries=places&key=AIzaSyAgpI_exjTUwwYPzrODfg5nxg1T1LHJuMs&callback=initMap'></script>
+
 
     
 </body>
