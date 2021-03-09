@@ -66,14 +66,14 @@ function initMap() {
 
 ];
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 6.3,
-      center: {lat:53,lng:-6},
+      zoom: 7.0,
+      center: {lat:53.5,lng:-7.2},
+      zoomControl: true,
     });
    
-    const options = {
+  const options = {
         fields: ["formatted_address", "geometry", "name"],
-        origin: map.getCenter(),
-        strictBounds: false,
+        
       };
       points.map(point=>{
           const infowindow = new google.maps.InfoWindow({
@@ -82,7 +82,7 @@ function initMap() {
             const marker = new google.maps.Marker({
                 position: {lat:point.lat,lng:point.lng},
                 map,
-                title: point.title,
+                title: point.content,
             });
             marker.addListener("click", () => {
                 infowindow.open(map, marker);
@@ -99,6 +99,8 @@ function initMap() {
     });
     
     const autocomplete = new google.maps.places.Autocomplete(input, options);
+    autocomplete.setComponentRestrictions({
+        country: ["ie"]});
       autocomplete.bindTo("bounds", map);
     autocomplete.addListener("place_changed", () => {
       infowindow.close();
