@@ -119,8 +119,8 @@ margin-left: 40px;
 
 .nav-link:hover {
 color: black;
-transform: scale(1.12);
--webkit-transform: scale(1.12);
+transform: scale(1.08);
+-webkit-transform: scale(1.08);
 }
 
 div.hero-image {
@@ -266,6 +266,7 @@ div#map {
 min-height: 460px;
 margin-top: 20px;
 border: 2px solid black;
+border-radius: 15px;
 }
 @media screen and (max-width: 600px){
 h1#ourtips-header {

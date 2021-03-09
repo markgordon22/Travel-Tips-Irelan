@@ -7,13 +7,63 @@ function initMap() {
     const points = [
     { lat: 53.7,
      lng: -6.3,
-     content:
-     "Belfast",title:"" },
+     content:"Belfast"},
 
     { lat: 52.25833,
      lng: -7.11194,
-     content:
-     "waterford",title:"" }
+     content:"waterford",
+    },
+
+      { lat:  55.007,
+     lng: -7.318268,
+     content:"Derry",
+     },
+
+      { lat:  55.007,
+     lng: -7.318268,
+     content:"Sligo",
+     },
+
+      { lat:  55.007,
+     lng: -7.318268,
+     content:"Dublin",
+     },
+
+      { lat:  55.007,
+     lng: -7.318268,
+     content:"Athlone",
+     },
+
+      { lat:  55.007,
+     lng: -7.318268,
+     content:"Donegal",
+     },
+
+      { lat:  55.007,
+     lng: -7.318268,
+     content:"Kerry",
+     },
+
+      { lat:  55.007,
+     lng: -7.318268,
+     content:"Galway",
+     },
+
+      { lat:  55.007,
+     lng: -7.318268,
+     content:"Cork",
+     },
+
+      { lat:  55.007,
+     lng: -7.318268,
+     content:"Limerick",
+     },
+
+      { lat:  55.007,
+     lng: -7.318268,
+     content:"Kilkenny",
+     },
+
 ];
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 6.3,
