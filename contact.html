@@ -18,8 +18,15 @@
     <!--local css stylesheet-->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <title>Travel Tips Ireland</title>
-
-    </head>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init("user_CAX5pCUAEQFAKtzR98fAN");
+    emailjs.send("gmail", "template id");
+})();
+    </script>
+</head>
 
     <body style="background-color: white;">
         <!--navbarr from bootstrap for responsiveness-->
@@ -55,32 +62,32 @@
     <div class="container">
      <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
-                        <label for="forename" class="form-label">First Name</label>
-                        <input name="forename" type="text" id="forename" class="form-control" required>
+                        <label for="fname" class="form-label">First Name</label>
+                        <input name="forename" type="text" id="fname" class="form-control" placeholder="John" required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
-                        <label for="surname" class="form-label ">Surname</label>
-                        <input name="surname" type="text" id="surname" class="form-control" required>
+                        <label for="lname" class="form-label ">Surname</label>
+                        <input name="surname" type="text" id="lname" class="form-control" placeholder="Smith" required>
                     </div>
                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
                         <label for="emailaddress" class="form-label ">Email Address</label>
-                        <input name="emailaddress" type="email" id="emailaddress" class="form-control" required>
+                        <input name="emailaddress" type="email" id="emailaddress" class="form-control" placeholder="Johnsmith@hotmail.com" required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
                         <label for="telephone-number" class="form-label">Phone Number</label>
-                        <input name="phone" type="tel" id="telephone-number" class="form-control" required>
+                        <input name="phone" type="tel" id="telephone-number" class="form-control" placeholder="085XXXXXXX" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"  required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
                         <label for="datefrom" class="form-label">Date Of Arrival</label>
-                        <input name="location-departure" type="text" id="datefrom" class="form-control" required>
+                        <input name="location-departure" type="text" id="datefrom" class="form-control" placeholder="10/10/2021" required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
                         <label for="date-to" class="form-label">Date Of Departure</label>
-                        <input name="holiday-destination" type="text" id="date-to" class="form-control" required>
+                        <input name="holiday-destination" type="text" id="date-to" class="form-control" placeholder="20/10/2021"  required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 form-group">
                         <label for="message" class="form-label">Your Message</label>
-                        <textarea name="your-message" class="form-control" id="message" style="height: 130px;" required></textarea>
+                        <textarea name="your-message" class="form-control" id="message" style="height: 130px;" placeholder="Your message"required></textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -92,20 +99,7 @@
 </form>
 </div>
 
-<div class="footer">
-<div class="container-fluid footer-container" style="color: black;">
-<div class="row">
-<div class="col-12 col-sm-12 col-md-12 col-lg-12">
-  <ul class="social-networks" style="font-size: 40px; text-align: center; padding: 20px;">
-            <li style="display: inline-block;"><a href="https://www.facebook.com" target="_blank" rel="noopener" style="color: black;"><i class="fab fa-facebook"></i></a></li>
-            <li style="display: inline-block;"><a href="https://www.twitter.com" target="_blank" rel="noopener" style="color: black;"><i class="fab fa-twitter-square"></i></a></li>
-            <li style="display: inline-block;"><a href="https://www.youtube.com" target="_blank" rel="noopener" style="color: black;"><i class="fab fa-youtube-square"></i></a></li>
-            <li style="display: inline-block;"><a href="https://www.instagram.com" target="_blank" rel="noopener" style="color: black;"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-</div>
-</div>
-</div>
-</div>
+
 
 <script
         src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js">
