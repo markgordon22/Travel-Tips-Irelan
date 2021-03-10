@@ -72,12 +72,9 @@ width: 100%;
   display: block;
 }
 
-
-
-
 #title {
   color: #000000;
-  
+  letter-spacing: 1px;
   font-size: 60px;
   font-weight: 500;
   padding: 6px 12px;

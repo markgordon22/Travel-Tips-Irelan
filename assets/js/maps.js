@@ -66,8 +66,8 @@ function initMap() {
 
 ];
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 7.0,
-      center: {lat:53.5,lng:-7.2},
+      zoom: 6.55,
+      center: {lat:53.5,lng:-7.6},
       zoomControl: true,
     });
    
