@@ -314,13 +314,13 @@ width: 100%;
 }}
 
 .send-message-button{
-background-color: coral;
-color:white
+background-color: white;
+color:black;
 }
 
 .send-message-button:hover {
 transform: scale(1.08);
-color: white;
+
 }
 
 #contact-us-header {
