@@ -19,6 +19,10 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <title>Travel Tips Ireland</title>
      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+       <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript">
         (function() {
             // https://dashboard.emailjs.com/admin/integration
@@ -41,6 +45,15 @@
             });
         }
     </script>
+   
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker({
+      showOtherMonths: true,
+      selectOtherMonths: true
+    });
+  } );
+  </script>
 </head>
 
     <body style="background-color: white;">
@@ -94,11 +107,11 @@
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
                         <label for="datefrom" class="form-label">Date Of Arrival</label>
-                        <input name="location-departure" type="text" id="datefrom" class="form-control" placeholder="10/10/2021" required>
+                        <input name="location-departure" type="text" id="datefrom datepicker" class="form-control" placeholder="10/10/2021" required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
                         <label for="date-to" class="form-label">Date Of Departure</label>
-                        <input name="holiday-destination" type="text" id="date-to" class="form-control" placeholder="20/10/2021"  required>
+                        <input name="holiday-destination" type="text" id="date-to datepicker" class="form-control" placeholder="20/10/2021"  required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 form-group">
                         <label for="message" class="form-label">Your Message</label>

@@ -100,7 +100,7 @@ function initMap() {
     
     const autocomplete = new google.maps.places.Autocomplete(input, options);
     autocomplete.setComponentRestrictions({
-        country: ["ie"]});
+        country: ["ie","gb"]});
       autocomplete.bindTo("bounds", map);
     autocomplete.addListener("place_changed", () => {
       infowindow.close();
