@@ -25,6 +25,27 @@
             emailjs.init('user_Zbyls1gsZDCKEwYdXN1JM');
         })();
     </script>
+    
+       <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                // these IDs from the previous steps
+                emailjs.sendForm('template_u6qncff', 'Travel Tips Ireland', this)
+                  .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            })
+        }
+    </script>
+
+
+
+
+   
      
    
   
