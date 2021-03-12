@@ -25,22 +25,25 @@
             emailjs.init('user_CAX5pCUAEQFAKtzR98fAN');
         })();
     </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                // these IDs from the previous steps
-                emailjs.sendForm('Travel Tips Ireland', 'Travel Tips Ireland', this)
-                    .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                       
-                    });
-            });
+    <script>
+
+function sendMail(contactForm) {
+  emailjs.send("Travel Tips Ireland","Travel Tips Ireland",{
+from_name: "Travel Tips Ireland",
+from_email: "TravelTipsIreland@gmail.com",
+})
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
         }
+    );
+    return false;  // To block from loading a new page
+}
     </script>
+      
    
   
 </head>
@@ -75,7 +78,7 @@
 </div>
 </div>
 
-<form id="contact-form">
+<form id="contact-form" onsubmit="return sendMail(this);">
     <div class="container">
      <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
