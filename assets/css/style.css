@@ -316,6 +316,7 @@ width: 100%;
 .send-message-button{
 background-color: white;
 color:black;
+font-family: 'Akaya Telivigala', cursive;
 }
 
 .send-message-button:hover {
