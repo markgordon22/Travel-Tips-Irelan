@@ -22,28 +22,10 @@
     <script type="text/javascript">
         (function() {
             // https://dashboard.emailjs.com/admin/integration
-            emailjs.init('user_CAX5pCUAEQFAKtzR98fAN');
+            emailjs.init('user_Zbyls1gsZDCKEwYdXN1JM');
         })();
     </script>
-    <script>
-
-function sendMail(contactForm) {
-  emailjs.send("Travel Tips Ireland","Travel Tips Ireland",{
-from_name: "Travel Tips Ireland",
-from_email: "TravelTipsIreland@gmail.com",
-})
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
-    return false;  // To block from loading a new page
-}
-    </script>
-      
+     
    
   
 </head>
@@ -146,6 +128,8 @@ from_email: "TravelTipsIreland@gmail.com",
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js">
     </script>
+
+    <script src="assets/js/email.js"></script>
 
 
     </body>
