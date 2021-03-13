@@ -22,35 +22,10 @@
     <script type="text/javascript">
         (function() {
             // https://dashboard.emailjs.com/admin/integration
-            emailjs.init('user_Zbyls1gsZDCKEwYdXN1JM');
+            emailjs.init('user_UnpmT2dUlD0o4aYW4LalX');
         })();
     </script>
     
-       <script type="text/javascript">
-        function sendMail(contactForm) {
-        emailjs.send("gmail", "template_u6qncff",{
-        from_name: "Travel Tips Ireland",
-        from_email: "TravelTipsIreland@hotmail.com",
-})
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
-    return false;  // To block from loading a new page
-}
-    </script>
-
-
-
-
-   
-     
-   
-  
 </head>
 
     <body style="background-color: white;">
@@ -83,20 +58,20 @@
 </div>
 </div>
 
-<form id="contact-form" onsubmit="return sendMail(this);">
+<form id="contactForm" onsubmit="return sendMail(this);">
     <div class="container">
      <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
-                        <label for="fname" class="form-label">First Name</label>
-                        <input name="forename" type="text" id="fname" class="form-control" placeholder="John" required>
+                        <label for="fromname" class="form-label">First Name</label>
+                        <input name="forename" type="text" id="fromname" class="form-control" placeholder="John" required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
                         <label for="lname" class="form-label ">Surname</label>
                         <input name="surname" type="text" id="lname" class="form-control" placeholder="Smith" required>
                     </div>
                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
-                        <label for="emailaddress" class="form-label ">Email Address</label>
-                        <input name="emailaddress" type="email" id="emailaddress" class="form-control" placeholder="Johnsmith@hotmail.com" required>
+                        <label for="toemail" class="form-label ">Email Address</label>
+                        <input name="emailaddress" type="email" id="toemail" class="form-control" placeholder="Johnsmith@hotmail.com" required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
                         <label for="telephone-number" class="form-label">Phone Number</label>
@@ -111,8 +86,8 @@
                         <input name="holiday-destination" type="date" id="datepicker" class="form-control" placeholder="20/10/2021"  required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 form-group">
-                        <label for="message" class="form-label">Your Message</label>
-                        <textarea name="your-message" class="form-control" id="message" style="height: 130px;" placeholder="Your message"required></textarea>
+                        <label for="msg" class="form-label">Your Message</label>
+                        <textarea name="your-message" class="form-control" id="msg" style="height: 130px;" placeholder="Your message"required></textarea>
                     </div>
                 </div>
                 <div class="row">
