@@ -58,36 +58,36 @@
 </div>
 </div>
 
-<form id="contactForm" onsubmit="return sendMail(this);">
+<form id="contactForm">
     <div class="container">
      <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
-                        <label for="fromname" class="form-label">First Name</label>
-                        <input name="forename" type="text" id="fromname" class="form-control" placeholder="John" required>
+                        <label for="fname" class="form-label">First Name</label>
+                        <input name="firstname" type="text" id="fname" class="form-control" placeholder="John" required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
-                        <label for="lname" class="form-label ">Surname</label>
-                        <input name="surname" type="text" id="lname" class="form-control" placeholder="Smith" required>
+                        <label for="lname" class="form-label ">Last Name</label>
+                        <input name="lastname" type="text" id="lname" class="form-control" placeholder="Smith" required>
                     </div>
                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
-                        <label for="toemail" class="form-label ">Email Address</label>
-                        <input name="emailaddress" type="email" id="toemail" class="form-control" placeholder="Johnsmith@hotmail.com" required>
+                        <label for="email-address" class="form-label ">Email Address</label>
+                        <input name="emailaddress" type="email" id="email-address" class="form-control" placeholder="Johnsmith@hotmail.com" required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
                         <label for="telephone-number" class="form-label">Phone Number</label>
                         <input name="phone" type="tel" id="telephone-number" class="form-control" placeholder="085XXXXXXX" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"  required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
-                        <label for="datepicker" class="form-label">Date Of Arrival</label>
-                        <input type="date" name="location-departure"  id="datepicker" class="form-control" placeholder="10/10/2021" required>
+                        <label for="datearrival" class="form-label">Date Of Arrival</label>
+                        <input name="arrival" type="date" id="datearrival" class="form-control" placeholder="10/10/2021" required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 form-group">
-                        <label for="datepicker" class="form-label">Date Of Departure</label>
-                        <input name="holiday-destination" type="date" id="datepicker" class="form-control" placeholder="20/10/2021"  required>
+                        <label for="datedeparture" class="form-label">Date Of Departure</label>
+                        <input name="departure" type="date" id="datedeparture" class="form-control" placeholder="20/10/2021"  required>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 form-group">
                         <label for="msg" class="form-label">Your Message</label>
-                        <textarea name="your-message" class="form-control" id="msg" style="height: 130px;" placeholder="Your message"required></textarea>
+                        <textarea name="message" class="form-control" id="msg" style="height: 130px;" placeholder="Your message"required></textarea>
                     </div>
                 </div>
                 <div class="row">
