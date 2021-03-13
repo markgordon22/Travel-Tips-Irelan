@@ -27,19 +27,21 @@
     </script>
     
        <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                // these IDs from the previous steps
-                emailjs.sendForm('template_u6qncff', 'Travel Tips Ireland', this)
-                  .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });
-            })
+        function sendMail(contactForm) {
+        emailjs.send("gmail", "template_u6qncff",{
+        from_name: "Travel Tips Ireland",
+        from_email: "TravelTipsIreland@hotmail.com",
+})
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
         }
+    );
+    return false;  // To block from loading a new page
+}
     </script>
 
 
