@@ -8,7 +8,8 @@
         arrival: document.getElementById("datearrival").value,
         to: document.getElementById("email-address").value,
         message: document.getElementById("msg").value
-    }
+    };
+    
     emailjs.send("service_4b99rtc","template_nllrsno",params)
     .then(
         // Alert sent if email successful

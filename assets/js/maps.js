@@ -1,5 +1,4 @@
-
-markers=[]
+markers=[];
 
 function initMap() {
     const card = document.getElementById("pac-card");
@@ -88,8 +87,8 @@ function initMap() {
             marker.addListener("click", () => {
                 infowindow.open(map, marker);
             });
-            markers.push(marker)
-        })
+            markers.push(marker);
+        });
 
     const infowindow = new google.maps.InfoWindow();
     const infowindowContent = document.getElementById("infowindow-content");
